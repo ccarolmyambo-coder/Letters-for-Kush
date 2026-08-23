@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>26 Letters for Kush</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===============================
+         BACKGROUND SYMBOLS
+         =============================== -->
+
+    <div class="stars">
+        <span>⁕</span>
+        <span>⁘</span>
+        <span>♪</span>
+        <span>⁎</span>
+        <span>¤</span>
+        <span>⁕</span>
+        <span>⁘</span>
+        <span>♪</span>
+        <span>⁎</span>
+        <span>¤</span>
+    </div>
+
+
+    <!-- ===============================
+         LANDING PAGE
+         =============================== -->
+
+    <main class="landing-page">
+
+        <p class="intro">
+            For my favourite gangster 🕶
+        </p>
+
+        <h1>
+            <span class="number">26</span>
+            Letters for Kush
+        </h1>
+
+        <p>
+            A little something I made for you,
+            the catch is they are all from me.
+        </p>
+
+        <p>
+            26 years of you.<br>
+            3 years of memories.<br>
+            A friendship blessed by God.
+        </p>
+
+        <button id="enterButton">
+            Enter 💙
+        </button>
+
+
+        <!-- KUSH / ZOE -->
+
+        <div class="friendship-modes">
+
+            <span class="kush-mode">
+                Kush🕶
+            </span>
+
+            <span class="zoe-mode">
+                Zoe🎀
+            </span>
+
+        </div>
+
+
+        <!-- MODE DISPLAY -->
+
+        <div id="mode-display" class="mode-display">
+
+            <div class="washi-tape"></div>
+
+            <img
+                id="mode-image"
+                src=""
+                alt=""
+            >
+
+            <h2 id="mode-title"></h2>
+
+            <p id="mode-caption"></p>
+
+            <button id="backButton">
+                ← Back
+            </button>
+
+        </div>
+
+
+        <!-- VERSE -->
+
+        <p class="verse">
+
+            "There are 'friends' who destroy each other,
+            but a real friend sticks closer than a brother".
+
+            <br>
+
+            <span>
+                - Proverbs 18:24
+            </span>
+
+        </p>
+
+    </main>
+
+
+
+    <!-- ===============================
+         LETTERS PAGE
+         =============================== -->
+
+    <section id="letters-page">
+
+        <h1>
+            26 Letters 💌
+        </h1>
+
+        <p class="letters-intro">
+            26 letters, 26 little pieces of our story. 💙
+        </p>
+
+
+        <!-- SCRAPBOOK GRID -->
+
+        <div class="letters-grid">
+
+            <button class="letter-card" data-letter="1">
+                💌 Letter 1
+            </button>
+
+            <button class="letter-card" data-letter="2">
+                💌 Letter 2
+            </button>
+
+            <button class="letter-card" data-letter="3">
+                💌 Letter 3
+            </button>
+
+            <button class="letter-card" data-letter="4">
+                💌 Letter 4
+            </button>
+
+            <button class="letter-card" data-letter="5">
+                💌 Letter 5
+            </button>
+
+            <button class="letter-card" data-letter="6">
+                💌 Letter 6
+            </button>
+
+            <button class="letter-card" data-letter="7">
+                💌 Letter 7
+            </button>
+
+            <button class="letter-card" data-letter="8">
+                💌 Letter 8
+            </button>
+
+            <button class="letter-card" data-letter="9">
+                💌 Letter 9
+            </button>
+
+            <button class="letter-card" data-letter="10">
+                💌 Letter 10
+            </button>
+
+            <button class="letter-card" data-letter="11">
+                💌 Letter 11
+            </button>
+
+            <button class="letter-card" data-letter="12">
+                💌 Letter 12
+            </button>
+
+            <button class="letter-card" data-letter="13">
+                💌 Letter 13
+            </button>
+
+            <button class="letter-card" data-letter="14">
+                💌 Letter 14
+            </button>
+
+            <button class="letter-card" data-letter="15">
+                💌 Letter 15
+            </button>
+
+            <button class="letter-card" data-letter="16">
+                💌 Letter 16
+            </button>
+
+            <button class="letter-card" data-letter="17">
+                💌 Letter 17
+            </button>
+
+            <button class="letter-card" data-letter="18">
+                💌 Letter 18
+            </button>
+
+            <button class="letter-card" data-letter="19">
+                💌 Letter 19
+            </button>
+
+            <button class="letter-card" data-letter="20">
+                💌 Letter 20
+            </button>
+
+            <button class="letter-card" data-letter="21">
+                💌 Letter 21
+            </button>
+
+            <button class="letter-card" data-letter="22">
+                💌 Letter 22
+            </button>
+
+            <button class="letter-card" data-letter="23">
+                💌 Letter 23
+            </button>
+
+            <button class="letter-card" data-letter="24">
+                💌 Letter 24
+            </button>
+
+            <button class="letter-card" data-letter="25">
+                💌 Letter 25
+            </button>
+
+            <button class="letter-card final-card" data-letter="26">
+                💙 Open Last
+            </button>
+
+        </div>
+
+
+        <!-- ===============================
+             LETTER PASSWORD MODAL
+             =============================== -->
+
+        <div id="letterModal" class="letter-modal">
+
+            <div class="letter-paper">
+
+                <h2 id="letterTitle">
+                    Letter
+                </h2>
+
+                <p id="letterClue">
+                    Clue goes here
+                </p>
+
+
+                <input
+                    type="password"
+                    id="letterPassword"
+                    placeholder="Enter password"
+                >
+
+
+                <button id="unlockLetter">
+                    Unlock 💙
+                </button>
+
+
+                <!-- NORMAL LETTER MESSAGE -->
+
+                <p id="letterMessage">
+                    This letter is still being written 💙
+                </p>
+
+
+                <!-- ===============================
+                     FINAL LETTER PROMPT
+                     =============================== -->
+
+                <div id="finalLetterPrompt">
+
+                    <p class="final-letter-text">
+
+                        You made it to the end. 💙
+
+                        <br><br>
+
+                        But you know the rules...
+
+                        <br>
+
+                        This one opens last.
+
+                    </p>
+
+                    <button id="openFinalLetter">
+                        Open Last Letter 💌
+                    </button>
+
+                </div>
+
+
+                <button id="closeLetter">
+                    Close
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- BACK TO LANDING -->
+
+        <button id="lettersBackButton">
+            ← Back
+        </button>
+
+    </section>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

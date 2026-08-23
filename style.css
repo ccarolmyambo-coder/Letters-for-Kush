@@ -1,0 +1,1146 @@
+/* =========================================
+   BASIC RESET
+   ========================================= */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* =========================================
+   BODY
+   KEEPING YOUR BLUE BACKGROUND
+   ========================================= */
+
+body {
+    background-color: rgba(127, 190, 241, 0.733);
+    font-family: Georgia, serif;
+}
+
+
+/* =========================================
+   GENERAL TEXT
+   ========================================= */
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   LANDING PAGE
+   ========================================= */
+
+.landing-page {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+
+    position: relative;
+    z-index: 5;
+}
+
+.number {
+    display: block;
+
+    font-size: 120px;
+    font-weight: normal;
+
+    line-height: 0.9;
+
+    font-family: Georgia, serif;
+}
+
+.intro {
+    font-size: 16px;
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+}
+
+
+/* =========================================
+   ENTER BUTTON
+   ========================================= */
+
+#enterButton {
+    margin-top: 30px;
+
+    padding: 12px 30px;
+
+    background-color: transparent;
+
+    color: white;
+
+    border: 1px solid white;
+
+    border-radius: 30px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.25s ease;
+}
+
+#enterButton:hover {
+    background-color: white;
+
+    color: rgba(127, 190, 241, 0.733);
+
+    transform: translateY(-3px);
+}
+
+
+/* =========================================
+   KUSH / ZOE
+   ========================================= */
+
+.friendship-modes {
+    display: flex;
+
+    gap: 30px;
+
+    margin-top: 30px;
+
+    font-size: 16px;
+
+    position: relative;
+
+    z-index: 10;
+}
+
+.kush-mode,
+.zoe-mode {
+    display: inline-block;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.3s ease,
+        color 0.3s ease;
+}
+
+.kush-mode {
+    transform: rotate(-2deg);
+}
+
+.zoe-mode {
+    transform: rotate(2deg);
+}
+
+.kush-mode:hover,
+.zoe-mode:hover {
+    transform:
+        translateY(-8px)
+        scale(1.1);
+
+    text-shadow:
+        0 0 12px rgba(255,255,255,0.8);
+}
+
+
+/* =========================================
+   VERSE
+   ========================================= */
+
+.verse {
+    margin-top: 35px;
+
+    font-size: 14px;
+
+    font-style: italic;
+
+    opacity: 0.85;
+
+    text-align: center;
+}
+
+.verse span {
+    display: block;
+
+    margin-top: 8px;
+
+    font-style: normal;
+
+    font-size: 12px;
+
+    letter-spacing: 1px;
+}
+
+
+/* =========================================
+   BACKGROUND SYMBOLS
+   ========================================= */
+
+body::before {
+    content: "⁎";
+
+    position: fixed;
+
+    top: 15%;
+    left: 15%;
+
+    font-size: 20px;
+
+    opacity: 0.5;
+
+    pointer-events: none;
+
+    animation:
+        twinkle 4s ease-in-out infinite alternate;
+}
+
+@keyframes twinkle {
+
+    from {
+        opacity: 0.2;
+    }
+
+    to {
+        opacity: 0.6;
+    }
+}
+
+
+.stars {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    pointer-events: none;
+
+    z-index: 0;
+}
+
+.stars span {
+    position: absolute;
+
+    font-size: 20px;
+
+    opacity: 0.5;
+
+    animation:
+        starTwinkle 3s ease-in-out infinite alternate;
+}
+
+
+/* SYMBOL POSITIONS */
+
+.stars span:nth-child(1) {
+    top: 10%;
+    left: 15%;
+    font-size: 14px;
+}
+
+.stars span:nth-child(2) {
+    top: 20%;
+    left: 80%;
+    font-size: 24px;
+    animation-delay: 1s;
+}
+
+.stars span:nth-child(3) {
+    top: 35%;
+    left: 10%;
+    font-size: 18px;
+    animation-delay: 2s;
+}
+
+.stars span:nth-child(4) {
+    top: 30%;
+    left: 65%;
+    font-size: 12px;
+    animation-delay: 0.5s;
+}
+
+.stars span:nth-child(5) {
+    top: 55%;
+    left: 85%;
+    font-size: 22px;
+    animation-delay: 1.5s;
+}
+
+.stars span:nth-child(6) {
+    top: 65%;
+    left: 20%;
+    font-size: 16px;
+    animation-delay: 2.5s;
+}
+
+.stars span:nth-child(7) {
+    top: 75%;
+    left: 70%;
+    font-size: 26px;
+    animation-delay: 0.8s;
+}
+
+.stars span:nth-child(8) {
+    top: 85%;
+    left: 10%;
+    font-size: 13px;
+    animation-delay: 1.8s;
+}
+
+.stars span:nth-child(9) {
+    top: 90%;
+    left: 50%;
+    font-size: 20px;
+    animation-delay: 2.8s;
+}
+
+.stars span:nth-child(10) {
+    top: 15%;
+    left: 50%;
+    font-size: 15px;
+    animation-delay: 0.3s;
+}
+
+@keyframes starTwinkle {
+
+    from {
+        opacity: 0.2;
+        transform: scale(0.8);
+    }
+
+    to {
+        opacity: 0.8;
+        transform: scale(1.2);
+    }
+}
+
+
+/* =========================================
+   KUSH / ZOE IMAGE DISPLAY
+   ========================================= */
+
+.mode-display {
+    display: none;
+
+    position: fixed;
+
+    inset: 0;
+
+    z-index: 20;
+
+    background-color: #000000;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 30px;
+
+    text-align: center;
+}
+
+.mode-display.show {
+    display: flex;
+
+    animation:
+        modeFadeIn 0.5s ease;
+}
+
+.mode-display img {
+    width: 250px !important;
+
+    height: 350px !important;
+
+    object-fit: cover !important;
+
+    background: white;
+
+    padding: 12px 12px 45px 12px;
+
+    border: 1px solid #ddd;
+
+    box-shadow:
+        5px 7px 15px rgba(0,0,0,0.3);
+}
+
+.mode-display h2 {
+    margin-top: 20px;
+
+    color: white;
+
+    font-size: 28px;
+}
+
+#backButton {
+    margin-top: 20px;
+
+    padding: 10px 24px;
+
+    border: 1px solid white;
+
+    border-radius: 25px;
+
+    background: transparent;
+
+    color: white;
+
+    cursor: pointer;
+
+    font-size: 15px;
+}
+
+#mode-caption {
+    margin-top: 10px;
+
+    font-family:
+        "Comic Sans MS",
+        "Bradley Hand",
+        cursive;
+
+    font-style: italic;
+
+    color: white;
+}
+
+@keyframes modeFadeIn {
+
+    from {
+        opacity: 0;
+        transform: scale(0.96);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+/* =========================================
+   WASHI TAPE ON KUSH / ZOE PHOTO
+   ========================================= */
+
+.washi-tape {
+    position: fixed;
+
+    top: 12%;
+    left: 50%;
+
+    width: 100px;
+    height: 28px;
+
+    background:
+        rgba(255,255,255,0.55);
+
+    transform:
+        translateX(-50%)
+        rotate(-5deg);
+
+    z-index: 100;
+}
+
+
+/* =========================================
+   LETTERS PAGE
+   ========================================= */
+
+#letters-page {
+    display: none;
+
+    min-height: 100vh;
+
+    padding: 40px 20px;
+
+    position: relative;
+
+    z-index: 10;
+}
+
+#letters-page h1 {
+    color: white;
+
+    margin-bottom: 10px;
+}
+
+.letters-intro {
+    color: white;
+
+    margin-bottom: 20px;
+}
+
+
+/* =========================================
+   SCRAPBOOK GRID
+   ========================================= */
+
+.letters-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 28px;
+
+    max-width: 1000px;
+
+    margin: 40px auto;
+
+    padding: 20px;
+}
+
+
+/* =========================================
+   SCRAPBOOK PAPER CARDS
+   ========================================= */
+
+.letter-card {
+    position: relative;
+
+    min-height: 135px;
+
+    padding: 28px 15px 20px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: #3d3935;
+
+    border:
+        1px solid
+        rgba(70,60,50,0.12);
+
+    border-radius: 2px;
+
+    font-family:
+        "Comic Sans MS",
+        "Bradley Hand",
+        cursive;
+
+    font-size: 18px;
+
+    cursor: pointer;
+
+    box-shadow:
+        4px 6px 12px
+        rgba(0,0,0,0.18);
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+
+    overflow: visible;
+}
+
+
+/* LITTLE PAPER EDGE */
+
+.letter-card::after {
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    border:
+        1px solid
+        rgba(255,255,255,0.35);
+
+    pointer-events: none;
+}
+
+
+/* =========================================
+   WASHI TAPE ON EVERY CARD
+   ========================================= */
+
+.letter-card::before {
+    content: "";
+
+    position: absolute;
+
+    top: -10px;
+    left: 50%;
+
+    width: 65px;
+    height: 20px;
+
+    background:
+        rgba(255,255,255,0.58);
+
+    transform:
+        translateX(-50%)
+        rotate(-4deg);
+
+    box-shadow:
+        0 1px 3px
+        rgba(0,0,0,0.08);
+
+    z-index: 10;
+}
+
+
+/* =========================================
+   DIFFERENT SCRAP PAPER COLORS
+   ========================================= */
+
+.letter-card:nth-child(1) {
+    background: #d4eaf3;
+    transform: rotate(-2deg);
+}
+
+.letter-card:nth-child(2) {
+    background: #f3d7df;
+    transform: rotate(2deg);
+}
+
+.letter-card:nth-child(3) {
+    background: #f5e5b5;
+    transform: rotate(-1deg);
+}
+
+.letter-card:nth-child(4) {
+    background: #d7ead2;
+    transform: rotate(2deg);
+}
+
+.letter-card:nth-child(5) {
+    background: #e2d7f1;
+    transform: rotate(-2deg);
+}
+
+.letter-card:nth-child(6) {
+    background: #f1d6bb;
+    transform: rotate(1deg);
+}
+
+.letter-card:nth-child(7) {
+    background: #cfe7df;
+    transform: rotate(-2deg);
+}
+
+.letter-card:nth-child(8) {
+    background: #f1ccd4;
+    transform: rotate(2deg);
+}
+
+.letter-card:nth-child(9) {
+    background: #d5e5f1;
+    transform: rotate(-1deg);
+}
+
+.letter-card:nth-child(10) {
+    background: #f4e1ac;
+    transform: rotate(2deg);
+}
+
+.letter-card:nth-child(11) {
+    background: #ddd3ed;
+    transform: rotate(-2deg);
+}
+
+.letter-card:nth-child(12) {
+    background: #d5e9d1;
+    transform: rotate(1deg);
+}
+
+.letter-card:nth-child(13) {
+    background: #f0cbd4;
+    transform: rotate(-1deg);
+}
+
+.letter-card:nth-child(14) {
+    background: #cde5ef;
+    transform: rotate(2deg);
+}
+
+.letter-card:nth-child(15) {
+    background: #f3dfb7;
+    transform: rotate(-2deg);
+}
+
+.letter-card:nth-child(16) {
+    background: #dfd3ee;
+    transform: rotate(1deg);
+}
+
+.letter-card:nth-child(17) {
+    background: #d2e8d9;
+    transform: rotate(-2deg);
+}
+
+.letter-card:nth-child(18) {
+    background: #f1d1d8;
+    transform: rotate(2deg);
+}
+
+.letter-card:nth-child(19) {
+    background: #d0e3f0;
+    transform: rotate(-1deg);
+}
+
+.letter-card:nth-child(20) {
+    background: #f4e1ad;
+    transform: rotate(2deg);
+}
+
+.letter-card:nth-child(21) {
+    background: #ddd2eb;
+    transform: rotate(-2deg);
+}
+
+.letter-card:nth-child(22) {
+    background: #d0e6d3;
+    transform: rotate(1deg);
+}
+
+.letter-card:nth-child(23) {
+    background: #f0cbd5;
+    transform: rotate(-1deg);
+}
+
+.letter-card:nth-child(24) {
+    background: #cce3ee;
+    transform: rotate(2deg);
+}
+
+.letter-card:nth-child(25) {
+    background: #f3dfb1;
+    transform: rotate(-2deg);
+}
+
+
+/* =========================================
+   LETTER 26 — SPECIAL
+   ========================================= */
+
+.letter-card:nth-child(26) {
+    background: #dcd0ee;
+
+    transform: rotate(1deg);
+
+    box-shadow:
+        5px 8px 16px
+        rgba(0,0,0,0.25);
+}
+
+
+/* =========================================
+   DIFFERENT TAPE ANGLES
+   ========================================= */
+
+.letter-card:nth-child(2)::before {
+    transform:
+        translateX(-50%)
+        rotate(5deg);
+}
+
+.letter-card:nth-child(3)::before {
+    transform:
+        translateX(-50%)
+        rotate(-7deg);
+}
+
+.letter-card:nth-child(4)::before {
+    transform:
+        translateX(-50%)
+        rotate(3deg);
+}
+
+.letter-card:nth-child(5)::before {
+    transform:
+        translateX(-50%)
+        rotate(-5deg);
+}
+
+.letter-card:nth-child(6)::before {
+    transform:
+        translateX(-50%)
+        rotate(6deg);
+}
+
+.letter-card:nth-child(7)::before {
+    transform:
+        translateX(-50%)
+        rotate(-3deg);
+}
+
+.letter-card:nth-child(8)::before {
+    transform:
+        translateX(-50%)
+        rotate(4deg);
+}
+
+
+/* =========================================
+   CARD HOVER
+   ========================================= */
+
+.letter-card:hover {
+    transform:
+        translateY(-8px)
+        rotate(0deg)
+        scale(1.05);
+
+    box-shadow:
+        7px 12px 20px
+        rgba(0,0,0,0.25);
+
+    z-index: 20;
+}
+
+
+/* =========================================
+   LETTER MODAL
+   ========================================= */
+
+.letter-modal {
+    display: none;
+
+    position: fixed;
+
+    inset: 0;
+
+    background:
+        rgba(0,0,0,0.75);
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 999;
+
+    padding: 20px;
+}
+
+.letter-modal.show {
+    display: flex;
+}
+
+
+/* =========================================
+   LETTER PAPER
+   ========================================= */
+
+.letter-paper {
+    background: #fffdf8;
+
+    width: 92%;
+
+    max-width: 900px;
+
+    height: 85vh;
+
+    overflow-y: auto;
+
+    padding: 50px;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 10px 30px
+        rgba(0,0,0,0.25);
+
+    text-align: left;
+
+    position: relative;
+}
+
+
+/* =========================================
+   LETTER TITLE
+   ========================================= */
+
+#letterTitle {
+    text-align: center;
+
+    margin-bottom: 20px;
+
+    font-size: 38px;
+}
+
+
+/* =========================================
+   CLUE
+   ========================================= */
+
+#letterClue {
+    text-align: center;
+
+    font-style: italic;
+
+    margin-bottom: 20px;
+}
+
+
+/* =========================================
+   PASSWORD
+   ========================================= */
+
+#letterPassword {
+    display: block;
+
+    width: 80%;
+
+    padding: 10px;
+
+    margin: 15px auto;
+
+    border-radius: 8px;
+
+    border: 1px solid #ccc;
+
+    font-size: 16px;
+}
+
+
+/* =========================================
+   BUTTONS
+   ========================================= */
+
+#unlockLetter,
+#closeLetter {
+    padding: 10px 20px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    margin: 10px;
+
+    font-size: 15px;
+}
+
+#unlockLetter {
+    background: #7fbef1;
+
+    color: white;
+}
+
+#closeLetter {
+    background: #eee;
+
+    color: #333;
+}
+
+
+/* =========================================
+   LETTER MESSAGE
+   ========================================= */
+
+#letterMessage {
+    display: none;
+
+    margin-top: 30px;
+
+    padding: 25px;
+
+    background:
+        rgba(255,255,255,0.7);
+
+    border-left:
+        4px solid #7fbef1;
+
+    border-radius: 10px;
+
+    line-height: 1.9;
+
+    font-family:
+        "Comic Sans MS",
+        "Bradley Hand",
+        cursive;
+
+    font-size: 20px;
+
+    white-space: pre-wrap;
+
+    text-align: left;
+}
+
+
+/* =========================================
+   FINAL LETTER PROMPT
+   ========================================= */
+
+#finalLetterPrompt {
+    display: none;
+
+    margin-top: 25px;
+
+    padding: 25px;
+
+    text-align: center;
+
+    background: #f3e4bd;
+
+    border:
+        1px solid
+        rgba(70,60,50,0.15);
+
+    box-shadow:
+        4px 6px 12px
+        rgba(0,0,0,0.18);
+
+    transform: rotate(-1deg);
+}
+
+.final-letter-text {
+    font-family:
+        "Comic Sans MS",
+        "Bradley Hand",
+        cursive;
+
+    font-size: 19px;
+
+    line-height: 1.6;
+
+    color: #3d3935;
+}
+
+#openFinalLetter {
+    margin-top: 15px;
+
+    padding: 12px 22px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    background: #7fbef1;
+
+    color: white;
+
+    font-family:
+        "Comic Sans MS",
+        "Bradley Hand",
+        cursive;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+#openFinalLetter:hover {
+    transform: scale(1.05);
+
+    box-shadow:
+        0 5px 12px
+        rgba(0,0,0,0.18);
+}
+
+
+/* =========================================
+   LETTERS BACK BUTTON
+   ========================================= */
+
+#lettersBackButton {
+    display: block;
+
+    margin: 20px auto;
+
+    padding: 10px 24px;
+
+    border: 1px solid white;
+
+    border-radius: 25px;
+
+    background: transparent;
+
+    color: white;
+
+    cursor: pointer;
+
+    font-size: 15px;
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 800px) {
+
+    h1 {
+        font-size: 45px;
+    }
+
+    .number {
+        font-size: 90px;
+    }
+
+    .letters-grid {
+        grid-template-columns:
+            repeat(3, 1fr);
+
+        gap: 22px;
+    }
+
+    .letter-paper {
+        padding: 30px;
+
+        height: 90vh;
+    }
+
+}
+
+
+@media (max-width: 550px) {
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .number {
+        font-size: 75px;
+    }
+
+    .letters-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+
+        gap: 18px;
+
+        padding: 10px;
+    }
+
+    .letter-card {
+        min-height: 110px;
+
+        padding: 22px 12px;
+
+        font-size: 16px;
+    }
+
+    .letter-paper {
+        padding: 22px;
+    }
+
+    #letterMessage {
+        font-size: 17px;
+    }
+
+}
