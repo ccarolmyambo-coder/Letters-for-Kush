@@ -237,7 +237,17 @@ You see me, im in my Kalanga Bag`
     3: {
         password: "seventeen",
         clue: "how many minutes was the longest vn you sent (in words)",
-        message: "This letter is still being written 💙"
+        message: `Dear Kush, welcome to letter 3
+This is giving either an email or diary entry….or is it just me?😃 don’t worry there will be no trigger words in this letter…but to make you more prepared, it won’t appear in any letters, but it will be a password. 
+
+Anyways, how long did it take you to find the answer. And yes the audio you forwarded DOES count as a vn. Anyway I have starred 35 of your messages, and I always go back and reread our chats, and I laugh as if it the first time seeing the messages, each time😭 imagine…the very first one I starred (edit: I was actually struggling with the spelling of that word. Stared v starrred) was in 2023. The exact date the 13th of April and you said “Women are not good people” and what funny is that you just said it😭😭😭 and that was the first time I used a trigger word - as a response. Can you guess what it is? Don’t search our chats (I’ve got my eye on you). 
+
+And one thing about you, you let me steal so many phrases from you Omds 😭😭😭 not you enabling thief behavior. Just kidding. This letter was just to ultimately say that you’re a good woman, you’re a great woman and not once did I include you in “women” when you said they aren’t good people. 😭
+
+I’m also just now reminded of how we started saying “worldly” statements and kept on asking each other if it was biblical. I also remember when I sent you a TikTok about a girl who said something about how we should also pray. Then you responded with “she’s Muslim” and I said I didn’t know and you said “you should be able to tell by her name”😭😭 Whuu chileeeee
+
+Anyways thank you for keeping me accountable and also providing a brave space (yes,I’m stealing that as well)
+Also tell me if you were able to get 4hrs of screen time last week. (I didn’t). I love you.`
     },
 
 
