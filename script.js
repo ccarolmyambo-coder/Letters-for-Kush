@@ -257,8 +257,71 @@ Also tell me if you were able to get 4hrs of screen time last week. (I didn’t)
 
     4: {
         password: "287",
-        clue: "how many kms are we apart (just a number)",
-        message: "This letter is still being written 💙"
+        clue: "how many kms are we apart (just a number -according to FindMy)",
+        message: `Dear Kush, welcome to letter 4 
+
+So remember when I asked you about your favourite actor, and you gave me a list. Most of this letter will be about that very list. (Also we are doing a lot of remembering, I hope you don’t mind).
+
+Your favourite actors in no particular order(I went and copied this from WhatsApp):
+White Actors/Actresses
+1. Florence Pugh
+2. ⁠Scarlett Johansson 
+3. ⁠Anne Hathaway 
+4. ⁠Lili Reinhart 
+5. ⁠Anna Kendrick
+6. ⁠Chris Evans
+7. ⁠Adam Sandler
+8. ⁠Cameron Diaz
+
+Black Actors/Actresses
+1. Morris Chestnut
+2. ⁠Nia Long
+3. ⁠Regina Hall
+4. ⁠Sanaa Lathan
+5. ⁠Meagan Good
+6. ⁠Michael Ealy 
+7. ⁠Keke Palmer
+8. ⁠Zendaya
+9. ⁠Yara Shahidi
+10. ⁠Larenz Tate
+11. ⁠Omari Hardrick 
+12. ⁠Kevin Hart 
+13. ⁠Chris Rock
+14. ⁠Lauren London
+15. ⁠Eddie Murphy
+
+And I remember you asking me which movie I’d seen these people in, well today is the day you’re gonna find out (edit: you were supposed to see this yesterday)😭😭 when you have the time you must tell me which movies you loved them in 
+
+1. Florence Pugh - I remember her being famous for her upside down smile, but the first movie I watched of hers was Midsommar, ouuu and then I saw her in Don’t worry darling with harry styles (the ending of that movie confused me a bit, I need to go and rewatch (you can come shoot me)
+2. ⁠Scarlett Johansson - okay let me get this out of the way, I don’t know any of her songs (sorry not sorry) but if you know any of her songs, you can put me on.  I’ve never been a big avengers watcher (you can shoot me again - mind you it’s just shooting me, not shooting me dead) I’ve seen her in jurassic world and in sing as Ash 😭😭😭
+3. ⁠Anne Hathaway - we’ve spoken about Anne, the last thing we spoke about her was her being pregnant? But she’s in the devil wears the prada the first one was really good…the second one…mmmm I’ve seen her in a clip of interstellar but I’ve never bothered to watch it. 
+4. ⁠Lili Reinhart - Uhm so I don’t think I’ve watched anything that she’s in 😃 familiar face tho. But there’s a book I read called love hypothesis- ou I loved it and it seems as if she’s gonna be in it/she’s already in it. I’m gonna watch it soooooon. 
+5. ⁠Anna Kendrick - my twilight girl 😂😂😂 lol I remember first watching that in 2024 and I found it so cringe😭😭 and guess what I know she’s in pitch perfect, but have I watched it…nope
+6. ⁠Chris Evans - you know this man used to be my husband, then he decided to want to save the world as captain america 👎🏽BOOO BOOO BOOO. Imagine saving the world and not your marriage. Anyways like I said I’m not very big in avengers but I know him from captain America 
+7. ⁠Adam Sandler - I think I’ve watched grown ups, I don’t remember I was pretty young and it was probably not for my age at the time. But tbf I’m not super big on comedy 🥲
+8. ⁠Cameron Diaz - first movie that came into mind…the mask 😭😭😭😭 and the other women. If you haven’t you need to watch the mask, I think it’s cringe 😃 I’ve also never watched Charlie’s angels (don’t shoot me!!!!)
+
+Black Actors/Actresses
+1. Morris Chestnut - you mean the world’s husband 😭😭 when people think of a fine beautiful man, you know his name is being brought up. But spoiler, I haven’t watched anything he is in 😃👎🏽
+2. ⁠Nia Long - she’s in love jones isn’t she (I haven’t watched her) but I’ve watched Big mommas house (and the second one)😝 I also really liked missing and life in a year (I only watched the movie because I had the biggest crush on Jaden smith- don’t judge)
+3. ⁠Regina Hall - will this woman age?!? Last thing I saw her in was that movie with my husband Keith powers (I didn’t like that older woman younger boy trope btw) - the perfect find btw. I loved her in scary movie, think like a man and OMDS GIRLS TRIP?!? Girls trip is grown people business because WHAT 
+4. ⁠Sanaa Lathan - sorry to this woman (I hope you get the keke palmer reference) I haven’t watched anything of hers 
+5. ⁠Meagan Good - Megan or vegan (I hope you also got the reference) I love her in short hair 😫😫 stomp the yard, think like a man also you got served!!!
+6. ⁠Michael Ealy - is this the man from “for coloured girls”…he killed his children, I’ll never forgive him omds, I’ve seen him some stuff but I’m forgetting, but he was also in fast and furious I forgot which one tho. His eyes?!? Eat DZOWN 
+7. ⁠Keke Palmer - “oh oh oh oh oh oh, I know it ain’t, I okk no ow it ain’t the STALLLIONNNNNNNN” I don’t know if I’ve watched any movies she’s in (I’m embarrassed right now) when I can remember one I’ll get back to you 
+8. ⁠Zendaya - wow she’s been my childhood crush since I could remember, I’ve watched everything she’s been in except for the odessay and dune. I love her DZOWN
+9. ⁠Yara Shahidi - blackish, that’s all I’m gonna say. She’s so gorgeous wow
+10. ⁠Larenz Tate - this man was in girls trip 😭😭👎🏽
+11. ⁠Omari Hardrick - he was also in for coloured girls- if you haven’t watched that movie, I need you to watch it 
+12. ⁠Kevin Hart - the joke man, jumanji, that’s the only movies I have watched him (I’m sorry) 😭 I haven’t even watched the disses 
+13. ⁠Chris Rock - from WWE to the tooth fairy 😭😭wow this man is so so good!!! I loved him in fast and furious and huma - haibo….not me realising that you said Chris rock and not Dwayne Johnson (ask me how I got to that - its because I saw Kevin and automatically assumed) but I know Chris from Madagascar!!! Who doesn’t love Madagascar, the bee movie, grown ups 😫 ugh man 
+14. ⁠Lauren London - ask me why I thought she was in her 50s 😃that’s because  madeas big happy family was YEARS AGO
+15. ⁠Eddie Murphy - you mean Donkey from Shrek 😭😭😭😭 I love shrek so much which means i automatically love this man DZOWN (obviously he’s been in more but I loved that he was donkey) 
+
+You must also tell me which movies you love that all of these actors/actress are in. And also good news, if you aren’t too busy tomorrow we can finally watch WAVESSS (yayyyyy)
+
+I love you because you have been so patient with me. (Also I actually don’t know how these letters should be, am I even doing it correctly (first time kinda nervous) ) it’s been so long since you asked me about this list, and you asked me more than once. You ticking down the box of what love is, what a woman of God you are. I love you ma’am 
+Also we must rewatch shrek so we can look for those jokes we’ve missed ❤️`
     },
 
 
