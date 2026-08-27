@@ -256,7 +256,7 @@ Also tell me if you were able to get 4hrs of screen time last week. (I didn’t)
     // =====================================
 
     4: {
-        password: "287",
+        password: "297",
         clue: "how many kms are we apart (just a number -according to FindMy)",
         message: `Dear Kush, welcome to letter 4 
 
@@ -323,8 +323,6 @@ You must also tell me which movies you love that all of these actors/actress are
 I love you because you have been so patient with me. (Also I actually don’t know how these letters should be, am I even doing it correctly (first time kinda nervous) ) it’s been so long since you asked me about this list, and you asked me more than once. You ticking down the box of what love is, what a woman of God you are. I love you ma’am 
 Also we must rewatch shrek so we can look for those jokes we’ve missed ❤️`
     },
-
-
     // =====================================
     // LETTER 5
     // =====================================
